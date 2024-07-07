@@ -1,5 +1,5 @@
 # Mean_Variance_StandardDeviation_Calculator
-User Input Handling: The function uses input() to get a string of numbers from the user, which are split into a list and converted to floats., <br>
+<b> User Input Handling: </b> The function uses input() to get a string of numbers from the user, which are split into a list and converted to floats., <br>
 Validation: It checks if the input list has exactly nine elements using len(input_list). If not, a ValueError is raised. <br>
 NumPy Operations:<br>
 np.array() converts the list into a NumPy array. <br>
