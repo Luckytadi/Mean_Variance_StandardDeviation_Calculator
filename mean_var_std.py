@@ -6,14 +6,12 @@ def calculate(n,matrix,mat):
     l4 = [list(matrix.max(axis = 0)),list(matrix.max(axis=1)),mat.max()]
     l5 = [list(matrix.min(axis = 0)),list(matrix.min(axis=1)),mat.min()]
     l6 = [list(matrix.sum(axis = 0)),list(matrix.sum(axis=1)),mat.sum()]
-    result = {
-  'mean': l1,
-  'variance': l2,
-  'standard deviation': l3,
-  'max': l4,
-  'min': l5,
-  'sum': l6
-}
+    result = {'mean': l1,
+              'variance': l2,
+              'standard deviation': l3,
+              'max': l4,
+              'min': l5,
+              'sum': l6}
     return result
 n = list(map(int,input().split()))
 try:
