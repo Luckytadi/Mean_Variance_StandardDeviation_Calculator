@@ -20,4 +20,4 @@ Sum: The sum of values along rows and columns, and the overall sum.
 
 ## How to Use
 1. Clone this repository.
-2. Open `mean_var_std.py in jupyter notebook or any other compatable platform.
+2. Open `mean_var_std.py in jupyter notebook or any other compatable platforms and run the code.
